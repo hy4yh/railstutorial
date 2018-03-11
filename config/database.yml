@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: posgresql
+  adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
@@ -19,7 +19,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: railsdb
+  database: railsdb_test
   username: hayashiyuuba
 
 production:
