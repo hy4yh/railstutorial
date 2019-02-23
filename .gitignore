@@ -25,8 +25,5 @@
 #Ignore spring files.
 /spring/*.pid
 
-#Ignore vendor file
-vendor/
-
 Ignore uploads files
 uploads/
