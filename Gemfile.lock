@@ -41,7 +41,7 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (8.0.0)
-    autoprefixer-rails (9.4.8)
+    autoprefixer-rails (9.4.10)
       execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
@@ -174,7 +174,7 @@ GEM
       fog-core (>= 1.45, <= 2.1.0)
       fog-json (>= 1.0)
       ipaddress (>= 0.8)
-    fog-ovirt (1.1.5)
+    fog-ovirt (1.1.6)
       fog-core
       fog-json
       fog-xml
@@ -333,6 +333,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rb-readline (0.5.5)
     rbovirt (0.1.7)
       nokogiri
       rest-client (> 1.7.0)
@@ -420,6 +421,7 @@ DEPENDENCIES
   puma (= 3.9.1)
   rails (= 5.1.4)
   rails-controller-testing (= 1.0.2)
+  rb-readline
   sass-rails (= 5.0.6)
   spring (= 2.0.2)
   spring-watcher-listen (= 2.0.1)
